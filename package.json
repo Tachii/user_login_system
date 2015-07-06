@@ -1,10 +1,7 @@
 {
   "name": "user_login_system",
-<<<<<<< HEAD
   "version": "1.0.0",
-=======
   "version": "0.0.0",
->>>>>>> 65b2c9f122c17109dfd6f8455627327fb77e23e3
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -16,7 +13,6 @@
     "express": "~4.12.4",
     "jade": "~1.9.2",
     "morgan": "~1.5.3",
-<<<<<<< HEAD
     "serve-favicon": "~2.2.1",
     "mongodb": "*",
     "mongoose": "*",
@@ -30,8 +26,3 @@
     "multer": "*"
   }
 }
-=======
-    "serve-favicon": "~2.2.1"
-  }
-}
->>>>>>> 65b2c9f122c17109dfd6f8455627327fb77e23e3
