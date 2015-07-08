@@ -22,7 +22,7 @@ var users = require('./routes/users');
 
 var app = express();
 
-// view engine setup
+// view engine setup - jade
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
@@ -55,8 +55,8 @@ app.use(session({
 app.use(flash());
 
 //express-messages
-app.use(function (req, res, next){
-  res.locals.messages = require('express-messages')(req,res);
+app.use(function(req, res, next) {
+  res.locals.messages = require('express-messages')(req, res);
   next();
 });
 
