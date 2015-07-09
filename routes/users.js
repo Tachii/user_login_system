@@ -50,7 +50,6 @@ router.post('/register', function(req, res, next) {
 
   //Check for errors
   var errors = req.validationErrors();
-
   if (errors) {
     res.render('register', {
       errorss: errors,
