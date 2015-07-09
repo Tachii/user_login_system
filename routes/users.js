@@ -52,7 +52,7 @@ router.post('/register', function(req, res, next) {
   var errors = req.validationErrors();
   if (errors) {
     res.render('register', {
-      errorss: errors,
+      errors: errors,
       name: name,
       email: email,
       username: username,
